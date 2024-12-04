@@ -52,16 +52,8 @@
     },
     "socialLinks": [
         {
-            "name": "logo-facebook",
-            "url": "#"
-        },
-        {
-            "name": "logo-twitter",
-            "url": "#"
-        },
-        {
-            "name": "logo-instagram",
-            "url": "#"
+            "name": "logo-linkedin",
+            "url": "https://www.linkedin.com/in/seancunniffe0/"
         }
     ],
     "projects": [
@@ -76,6 +68,12 @@
             "category": "Web development",
             "img": "./assets/images/controller.png",
             "link": "https://github.com/sean-cunniffe/CustomController"
+        },
+        {
+            "title": "SeanAI Chatbot",
+            "category": "Backend Development",
+            "img": "./assets/images/chatbot.jpeg",
+            "link": "./chatbot"
         }
     ],
     "education": [
