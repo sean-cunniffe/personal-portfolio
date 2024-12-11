@@ -54,26 +54,59 @@
         {
             "name": "logo-linkedin",
             "url": "https://www.linkedin.com/in/seancunniffe0/"
+        },
+        {
+            "name": "file",
+            "url": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/SeanCunniffeCV1.pdf?alt=media&token=604f2163-fbea-4928-9792-5f5bb47290d1"
         }
     ],
     "projects": [
         {
-            "title": "Sorting Algorithms",
-            "category": "Web development",
-            "img": "./assets/images/sorting-algorithm.png",
-            "link": "https://sean-cunniffe.github.io/visual-sorting-algorithms/"
-        },
-        {
-            "title": "Controller Shop",
-            "category": "Web development",
-            "img": "./assets/images/controller.png",
-            "link": "https://github.com/sean-cunniffe/CustomController"
-        },
-        {
             "title": "SeanAI Chatbot",
-            "category": "Backend Development",
+            "category": "Microservice Development",
             "img": "./assets/images/chatbot.jpeg",
             "link": "./chatbot"
+        },
+        {
+            "category": "Microservice Development",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/userservice.png?alt=media&token=7d199f6b-fee6-41bf-ae8e-fc89a0bacc4c",
+            "link": "https://github.com/sean-cunniffe/user-service",
+            "title": "User Service"
+        },
+        {
+            "category": "Web Development",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/controller.JPG?alt=media&token=149b4cab-9369-4e3f-8fc8-a98cc62f5be4",
+            "link": "https://github.com/sean-cunniffe/CustomController",
+            "title": "Custom Controllers Shop"
+        },
+        {
+            "category": "Backend Development",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/Network-management-tool.png?alt=media&token=006435de-1742-4494-807a-9a311c6c0cde",
+            "title": "Network Management Tool",
+            "link": "#"
+        },
+        {
+            "category": "Backend Development",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/greenway.jpg?alt=media&token=eb4128fe-89a9-41bf-b1cb-466f2063dd04",
+            "title": "Greenway Bicycles"
+        },
+        {
+            "category": "Backend Development",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/fitness-tracker-smaller.jpg?alt=media&token=4f3031cf-6c85-4afe-a771-a75f4717837b",
+            "link": "https://github.com/sean-cunniffe/exercise-tracking-api",
+            "title": "Exercise Tracker API"
+        },
+        {
+            "category": "Frontend Development",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/sorting-algo.jpg?alt=media&token=2e373751-5342-4932-b362-595ff52f3fea",
+            "link": "https://sean-cunniffe.github.io/visual-sorting-algorithms/",
+            "title": "Visual Sorting Algorithms"
+        },
+        {
+            "category": "Machine Learning",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/decision-tree.png?alt=media&token=47fcf4a1-0551-4ae7-8d16-acbc01b31ed9",
+            "link": "https://github.com/sean-cunniffe/python-CART",
+            "title": "Cart.py"
         }
     ],
     "education": [
