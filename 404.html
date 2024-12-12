@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=/" />
-    <script>
-        // Redirect using JavaScript for cases where meta refresh fails
-        window.location.href = "/";
+    <script type="text/javascript">
+        // Retain the original URL path
+        var redirectUrl = window.location.origin + window.location.pathname;
+        window.location.replace(redirectUrl);
     </script>
 </head>
 <body>
-    Redirecting to the home page...
+    Redirecting...
 </body>
 </html>
