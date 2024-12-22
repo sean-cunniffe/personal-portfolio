@@ -15,9 +15,11 @@ function Portfolio() {
         <ul className="project-list">
           {Data.projects.map((project, index) => (
             <li className="project-item active" data-filter-item data-category={project.category.toLowerCase()} key={index}>
-              <a href={project.link} target={project.redirect ? "_blank":''} rel="noreferrer" onClick={(e)=>{
-                e.preventDefault()
-                nav(project.link)
+              <a href={project.link} target={project.redirect ? "_blank":''} rel={project.redirect ? "noreferrer":''} onClick={(e)=>{
+                if(!project.redirect) {
+                  e.preventDefault()
+                  nav(project.link)
+                }
               }
 
               }>
