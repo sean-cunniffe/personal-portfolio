@@ -54,54 +54,54 @@
         {
             "title": "SeanAI Chatbot",
             "category": "Microservice Development",
-            "img": "./assets/images/chatbot.jpeg",
-            "link": "/chatbot",
-            "redirect": false
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/chatbot-small.png?alt=media&token=ed2d464a-a870-415b-baca-74d12309b344",
+            "link": "https://medium.com/@sean.cunniffe927/seanai-chatbot-a16f6b5de1f8",
+            "redirect": true
         },
         {
             "category": "Microservice Development",
-            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/userservice.png?alt=media&token=7d199f6b-fee6-41bf-ae8e-fc89a0bacc4c",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/userservice-small.png?alt=media&token=9ed71c65-6b19-4d74-9039-dd62b1ceb606",
             "link": "https://github.com/sean-cunniffe/user-service",
             "title": "User Service",
             "redirect": true
         },
         {
             "category": "Web Development",
-            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/controller.JPG?alt=media&token=149b4cab-9369-4e3f-8fc8-a98cc62f5be4",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/controller-small.png?alt=media&token=b4f5f3df-68ae-47d2-a8bf-9bac834484bc",
             "link": "https://github.com/sean-cunniffe/CustomController",
             "title": "Custom Controllers Shop",
             "redirect": true
         },
         {
             "category": "Backend Development",
-            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/Network-management-tool.png?alt=media&token=006435de-1742-4494-807a-9a311c6c0cde",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/Network-management-tool-small.png?alt=media&token=b696e317-bf0c-455a-b2d1-d80acb39ea10",
             "title": "Network Management Tool",
             "link": "#",
             "redirect": true
         },
         {
             "category": "Backend Development",
-            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/greenway.jpg?alt=media&token=eb4128fe-89a9-41bf-b1cb-466f2063dd04",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/greenway-small.jpg?alt=media&token=7ad43f44-0255-46cb-b19f-b57db29f3c32",
             "title": "Greenway Bicycles",
             "redirect": true
         },
         {
             "category": "Backend Development",
-            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/fitness-tracker-smaller.jpg?alt=media&token=4f3031cf-6c85-4afe-a771-a75f4717837b",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/fitness-tracker-smaller.jpg?alt=media&token=7d49632c-cf59-4448-be33-912b75a52adb",
             "link": "https://github.com/sean-cunniffe/exercise-tracking-api",
             "title": "Exercise Tracker API",
             "redirect": true
         },
         {
             "category": "Frontend Development",
-            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/sorting-algo.jpg?alt=media&token=2e373751-5342-4932-b362-595ff52f3fea",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/sorting-algo-small.jpg?alt=media&token=e1a3a674-8856-4a7e-93d0-7138aa87e3f8",
             "link": "https://sean-cunniffe.github.io/visual-sorting-algorithms/",
             "title": "Visual Sorting Algorithms",
             "redirect": true
         },
         {
             "category": "Machine Learning",
-            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/decision-tree.png?alt=media&token=47fcf4a1-0551-4ae7-8d16-acbc01b31ed9",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/CART-small.png?alt=media&token=6745f418-0a47-452e-a5d3-0de0ac0d2815",
             "link": "https://github.com/sean-cunniffe/python-CART",
             "title": "Cart.py",
             "redirect": true
