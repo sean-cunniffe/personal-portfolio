@@ -59,6 +59,13 @@
             "redirect": true
         },
         {
+            "title": "Starting Production Cluster",
+            "category": "Kubernete System Architecture",
+            "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/k8-system-small.png?alt=media&token=845ede47-9c52-47f4-9b2d-d4183d9314b3",
+            "link": "https://medium.com/@sean.cunniffe927/setting-up-a-production-kubernetes-cluster-using-customer-grade-hardware-c0cf06111e99",
+            "redirect": true
+        },
+        {
             "category": "Microservice Development",
             "img": "https://firebasestorage.googleapis.com/v0/b/web-portfolio-b463f.appspot.com/o/userservice-small.png?alt=media&token=9ed71c65-6b19-4d74-9039-dd62b1ceb606",
             "link": "https://github.com/sean-cunniffe/user-service",
