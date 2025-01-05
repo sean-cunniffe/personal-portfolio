@@ -722,6 +722,9 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-1);
 }
+.testimonials-avatar-box svg {
+  width: 60px;
+}
 
 .testimonials-item-title { margin-bottom: 7px; }
 
@@ -1547,7 +1550,7 @@ main {
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box div {
+  .testimonials-avatar-box svg {
     width: 80px;
     transform: scale(0.5);
   }
@@ -1587,7 +1590,7 @@ main {
 
   .modal-avatar-box img { width: 65px; }
 
-  .modal-img-wrapper div {
+  .modal-img-wrapper > div {
     display: block;
     flex-grow: 1;
     min-width: 35px;
