@@ -8,7 +8,29 @@ function App() {
   const [sidebarActive, setSidebarActive] = useState(false);
   let [active, setActive] = useState(useLocation().pathname)
 
-  console.log(useLocation())
+  const themes = [
+    {
+      title: "Yellow",
+      cssThemeSelector: "yellow",
+      cssVar: "--theme-yellow"
+    },
+    {
+      title: "Punk Pink",
+      cssThemeSelector: "punk-pink",
+      cssVar: "--theme-pink"
+    },
+    {
+      title: "Green",
+      cssThemeSelector: "green",
+      cssVar: "--theme-green"
+    },
+    {
+      title: "Blue",
+      cssThemeSelector: "blue",
+      cssVar: "--theme-blue"
+    }
+  ]
+
   const components = [
     {
       title: "About",
@@ -33,21 +55,30 @@ function App() {
     setActive(modal.nav)
     nav(modal.nav)
   }
-
-
+  function setTheme(color) {
+    localStorage.setItem("theme", color)
+    document.documentElement.setAttribute('data-theme', color)
+  }
+  function getTheme() {
+    return localStorage.getItem("theme")
+  }
+  var theme = getTheme()
+    if (theme) {
+      setTheme(theme)
+    } else{
+      setTheme(themes[0].cssThemeSelector)
+    }
   return (
     <main>
       <aside className={`sidebar ${sidebarActive ? 'active' : ''}`} data-sidebar>
 
         <div className="sidebar-info">
-
           <figure className="avatar-box">
             <img src={Data.personalInfo.avatar} alt={Data.personalInfo.name} width="80" />
           </figure>
 
           <div className="info-content">
             <h1 className="name" title={Data.personalInfo.name}>{Data.personalInfo.name}</h1>
-
             <p className="title">{Data.personalInfo.title}</p>
           </div>
 
@@ -146,8 +177,28 @@ function App() {
         <nav className="navbar">
 
           <ul className="navbar-list">
+            <li className='navbar-item theme-palette'>
+              <button className="theme-icon">
+                <ion-icon name="color-palette-outline" />
+              </button>
+              <nav>
+                <section className="absolute h-full w-full top-0 left-0">
+                  <aside className="theme-list-container">
+                    <ul className="theme-list">
+                      {themes.map((theme) => (
+                        <li className='p-2 h-min'>
+                          <button style={{ backgroundColor: 'var(' + theme.cssVar + ')' }} onClick={() => setTheme(theme.cssThemeSelector)}>
+                            <span className="hidden">{theme.title}</span>
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </aside>
+                </section>
+              </nav>
+            </li>
             {
-              components.map((component, index) => (
+              components.reverse().map((component, index) => (
                 <li className="navbar-item">
                   <button className={`navbar-link ${active === component.nav ? 'active' : ''}`} onClick={() => NavigateToModal(component)}>{component.title}</button>
                 </li>
@@ -156,7 +207,7 @@ function App() {
           </ul>
 
         </nav>
-        <Outlet/>
+        <Outlet />
 
       </div>
     </main>

@@ -6,7 +6,7 @@
 }
 
 .guest-message {
-    background-color: #67B26A;
+    background-color: var(--msg-color);
     color: var(--light-gray);
 }
 
