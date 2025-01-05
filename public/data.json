@@ -19,18 +19,16 @@
             "testimonial": "I had the privilege of working with Sean as part of my team for the past two years, during which time he consistently proved himself to be an exceptional developer. Sean has a remarkable ability to collaborate effectively within a team, always contributing positively and fostering a supportive working environment. I wholeheartedly recommend Sean and am confident he will excel in any endeavor he chooses to pursue."
         }
     ],
-    "services": [
-        {
+    "services": {
+        "backend": {
             "title": "Backend Solutions",
-            "icon": "./assets/images/icon-design.svg",
             "description": "The most robust and secure design made at a professional level."
         },
-        {
+        "web": {
             "title": "Web Development",
-            "icon": "./assets/images/icon-dev.svg",
             "description": "Building fast and responsive web applications."
         }
-    ],
+    },
     "personalInfo": {
         "name": "Sean Cunniffe",
         "title": "Software Engineer",

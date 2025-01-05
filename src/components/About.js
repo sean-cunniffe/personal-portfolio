@@ -1,6 +1,9 @@
 
 import React from 'react';
 import Data from '../data/data';
+import Design from './icons/Design'
+import Dev from './icons/Dev'
+import Quote from './icons/Quote';
 
 function About() {
   let [modalActive, setModelActive] = React.useState(false)
@@ -21,17 +24,24 @@ function About() {
       <section className="service">
         <h3 className="h3 service-title">What I'm doing</h3>
         <ul className="service-list">
-          {Data.services.map((service, index) => (
-            <li className="service-item" key={index}>
+            <li className="service-item">
               <div className="service-icon-box">
-                <img src={`${service.icon}`} alt="design icon" width="40" />
+                <Design/>
               </div>
               <div className="service-content-box">
-                <h4 className="h4 service-item-title">{service.title}</h4>
-                <p className="service-item-text">{service.description}</p>
+                <h4 className="h4 service-item-title">{Data.services.backend.title}</h4>
+                <p className="service-item-text">{Data.services.backend.description}</p>
               </div>
             </li>
-          ))}
+            <li className="service-item">
+              <div className="service-icon-box">
+              <Dev></Dev>
+              </div>
+              <div className="service-content-box">
+                <h4 className="h4 service-item-title">{Data.services.web.title}</h4>
+                <p className="service-item-text">{Data.services.web.description}</p>
+              </div>
+            </li>
         </ul>
       </section>
 
@@ -45,7 +55,8 @@ function About() {
             }}>
               <div className="content-card" data-testimonials-item>
                 <figure className="testimonials-avatar-box">
-                  <img src={testimonial.img} alt={testimonial.name} width="60" className="scale-50" data-testimonials-avatar />
+                  <Quote />
+                  {/* <img src={testimonial.img} alt={testimonial.name} width="60" className="scale-50" data-testimonials-avatar /> */}
                 </figure>
                 <h4 className="h4 testimonials-item-title" data-testimonials-title>{testimonial.name}</h4>
                 <div className="testimonials-text" data-testimonials-text>
@@ -64,7 +75,7 @@ function About() {
             <ion-icon name="close-outline"></ion-icon>
           </button>
           <div className="modal-img-wrapper">
-            <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            <Quote/>
           </div>
           <div className="modal-content">
             <h4 className="h3 modal-title" data-modal-title>{testimonial.name}</h4>
